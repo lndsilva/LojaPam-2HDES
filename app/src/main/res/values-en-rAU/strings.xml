@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LojaPam</string>
+    <string name="insira_seu_email">Email</string>
+    <string name="insira_sua_senha">Password</string>
+    <string name="entrar">Open</string>
+    <string name="sair">Close</string>
+</resources>

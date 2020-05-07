@@ -1,0 +1,2 @@
+rootProject.name='LojaPam'
+include ':app'
