@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AFD6D9"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".Splash_Activity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo_avenger"/>
+    <!-- <Button
+        android:onClick="abrirJanela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir outra janela"/> -->
+
+</LinearLayout>
