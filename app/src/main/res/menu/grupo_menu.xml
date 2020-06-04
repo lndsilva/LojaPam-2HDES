@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Labels">
+        <menu>
+            <item
+                android:id="@+id/mFav"
+                android:icon="@drawable/ic_favorite"
+                android:title="Favoritos" />
+            <item
+                android:id="@+id/mShare"
+                android:icon="@drawable/ic_favorite"
+                android:title="Compartilhar" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/grpMenu"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:menuCategory="system"
+        android:visible="true">
+        <item
+            android:icon="@drawable/ic_baseline_email"
+            android:title="Inbox" >
+            <menu>
+                <item android:title="SentMail"/>
+            </menu>
+
+        </item>
+
+
+        <item
+            android:icon="@drawable/ic_baseline_send"
+            android:title="Outbox" />
+        <item
+            android:icon="@drawable/ic_baseline_delete"
+            android:title="Spam" />
+        <item
+            android:icon="@drawable/ic_baseline_info"
+            android:title="Trash" />
+
+    </group>
+
+
+</menu>

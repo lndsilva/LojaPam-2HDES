@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mAquivo"
+        android:icon="@drawable/ic_baseline_archive"
+        android:title="Arquivo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mEditar"
+        android:icon="@drawable/ic_baseline_update"
+        android:title="Editar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/ic_baseline_delete"
+        android:title="Excluir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/ic_baseline_save"
+        android:title="Salvar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/ic_baseline_exit_to_app"
+        android:title="Sair"
+        app:showAsAction="ifRoom" />
+
+</menu>
