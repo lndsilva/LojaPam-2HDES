@@ -23,6 +23,11 @@ public class Menu_Activity extends AppCompatActivity {
         //Criando a toolbar
         toolbar = findViewById(R.id.toolBarMenu);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setIcon(R.drawable.bmw);
+        getSupportActionBar().setTitle("");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     //Instânciando o menu na toolbar
@@ -62,6 +67,12 @@ public class Menu_Activity extends AppCompatActivity {
                 //chamada de método para fechar a janela do app (finalizar)
                 finish();
                 break;
+            case android.R.id.home:
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei no botão voltar",
+                        Toast.LENGTH_SHORT).show();
+                break;
+
         }
         return true;
     }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Cadastro_Usuario_Activity">
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cadastro de usuário"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" /> -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/add_user" />
+
+    <EditText
+        android:id="@+id/cadUsuNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cadUsuTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:maxLength="9"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cadUsuCPF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:hint="CPF"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cadUsuEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cadUsuSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cadUsuConfSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Confirma senha"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCadUsuConfirmar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Confirmar"
+        android:textSize="20sp" />
+
+</LinearLayout>
