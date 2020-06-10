@@ -23,7 +23,7 @@
         android:src="@drawable/add_user" />
 
     <EditText
-        android:id="@+id/cadUsuNome"
+        android:id="@+id/txtCadUsuNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -39,7 +39,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/cadUsuTel"
+            android:id="@+id/txtCadUsuTel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -51,7 +51,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/cadUsuCPF"
+            android:id="@+id/txtCadUsuCPF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -64,7 +64,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/cadUsuEmail"
+        android:id="@+id/txtCadUsuEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -75,7 +75,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/cadUsuSenha"
+        android:id="@+id/txtCadUsuSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -86,7 +86,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/cadUsuConfSenha"
+        android:id="@+id/txtCadUsuConfSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
