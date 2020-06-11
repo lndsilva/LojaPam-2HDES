@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAB_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblTextoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto A" />
+
+        <TextView
+            android:id="@+id/lblTextoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblTextoA"
+            android:text="Texto B" />
+
+        <TextView
+            android:id="@+id/lblTextoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblTextoA"
+            android:text="Texto C" />
+
+        <TextView
+            android:id="@+id/lblTextoD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblTextoB"
+            android:layout_toRightOf="@+id/lblTextoC"
+            android:text="Texto D" />
+
+        <EditText
+            android:id="@+id/txtEmailN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblTextoC"
+            android:layout_marginTop="40dp"
+            android:hint="Entre com seu e-mail" />
+
+        <EditText
+            android:id="@+id/txtSenhaN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmailN"
+            android:layout_marginTop="40dp"
+            android:hint="Entre com sua senha" />
+
+        <Button
+            android:id="@+id/btnEntrarN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSenhaN"
+            android:layout_marginTop="40dp"
+            android:text="Entrar" />
+
+        <Button
+            android:id="@+id/btnSairN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnEntrarN"
+            android:layout_marginTop="40dp"
+            android:text="Sair" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_baseline_assignment_turned"
+            app:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnSairN"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Nome" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Telefone" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="CPF" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
