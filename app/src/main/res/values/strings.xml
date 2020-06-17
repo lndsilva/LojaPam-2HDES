@@ -6,6 +6,11 @@
     <string name="sair">Sair</string>
     <string name="descricao">A BMW hoje é dona também das marcas Mini e Rolls-Royce Motor Cars e anteriormente também da Land Rover, o atual Range Rover foi desenvolvido em grande parte pela marca germânica.</string>
     <string name="descricao_tulipa">Com cerca de cem folhagens surge uma haste ereta, com flor solitária formada por seis pétalas.</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="circulo_novo">Circulo</string>
 
     <array name="estados">
         <item>São Paulo</item>
